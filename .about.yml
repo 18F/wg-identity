@@ -1,0 +1,21 @@
+---
+name: identity
+full_name: Identity Working Group
+type: docs
+owner_type: "working-group"
+status: active
+testable: false
+description: >
+  We support projects focused on identity issues.  
+stage: live
+licenses:
+  wg-open_source:
+    name: Public Domain (CC0)
+    url: https://creativecommons.org/publicdomain/zero/1.0/ 
+links:
+- url: https://pages-staging.18f.gov/authentication/
+  text: Authentication guide
+team:
+- github: esgoodman
+  role: lead
+- github: emaland
