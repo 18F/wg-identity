@@ -1,0 +1,64 @@
+markdown: redcarpet
+name: 18F Working Group Working Group
+exclude:
+- go
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+- vendor
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  url: index.html
+  internal: true
+- text: Main repository
+  url: https://github.com/18F/wg-working_groups/
+  internal: false
+- text: ".about.yml"
+  url: https://github.com/18F/wg-working_groups/blob/18f-pages/.about.yml
+  internal: false
+- text: Objectives and Key Results
+  url: https://docs.google.com/a/gsa.gov/document/d/1eaOCCuc_y_Kvq5pRAdsNmqjnzFJOeFvVcNKgeAlI8vc/edit?usp=sharing
+  internal: false
+- text: Meeting agendas
+  url: https://drive.google.com/a/gsa.gov/folderview?id=0Byjrf_t-6q4Zfm5rODdjSHFkQjBjQWN6NVgwN1JZaVZxVmpLS3NVbDY2cU4zZFdESWlXZUE&usp=sharing
+  internal: false
+- text: Grouplet Playbook
+  url: https://pages.18f.gov/grouplet-playbook/
+  internal: false
+  children:
+  - text: Grouplet Playbook repository
+    url: https://github.com/18F/grouplet-playbook/
+    internal: false
+
+repos:
+- name: 18F Working Group Working Group
+  description: Main repository
+  url: https://github.com/18F/wg-working_groups
+
+google_analytics_ua: UA-48605964-19
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
